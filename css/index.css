@@ -1,0 +1,142 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  background: linear-gradient(
+    76deg,
+    #fde1ff,
+    #e0e7ff,
+    #e0f9ff,
+    #fffae9,
+    #e8eaff,
+    #ffe3f7,
+    #daf1ff,
+    #fde1ff,
+    #e0e7ff,
+    #e0f9ff,
+    #fffae9,
+    #e8eaff,
+    #ffe3f7,
+    #daf1ff,
+    #fde1ff,
+    #e0e7ff,
+    #e0f9ff,
+    #fffae9,
+    #e8eaff,
+    #ffe3f7,
+    #daf1ff
+  );
+
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+
+.b {
+  display: flex;
+  justify-content: space-around;
+}
+.navLeft,
+.navRight {
+  margin-top: 5px !important;
+}
+li {
+  display: inline;
+  margin: 25px;
+}
+.btn {
+  background: #274fed;
+  border-color: #274fed;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 0.933rem;
+  border: 1px solid transparent;
+  border-radius: 0.133rem;
+  font-size: 0.867rem;
+  height: 3.2rem;
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly !important;
+  margin: 20px auto;
+}
+
+.hero-text h1 {
+  font-size: 2.667rem;
+  font-weight: 900;
+  margin-left: 20%;
+  padding-top: 2%;
+}
+.hero-text p {
+  font-weight: 200 !important;
+  margin-left: 20%;
+}
+
+.hero-imgs {
+  width: 100%;
+  position: relative;
+  margin: 20px auto;
+}
+.hero-imgs p {
+  padding: 2% 0% 10% 20%;
+}
+.blueCard {
+  width: 50%;
+  position: relative;
+  z-index: 10;
+  margin-left: 20%;
+}
+.whiteCard {
+  width: 50%;
+  left: 21%;
+  position: absolute;
+  top: 58%;
+  margin-left: 20%;
+}
+.varieties {
+  margin-top: 20%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tan-img,
+.jumia-img,
+.shoprite-img,
+.showmax-img,
+.aws-img,
+.netflix-img,
+.apple-img {
+  margin-left: 1%;
+  background-color: rgb(248, 249, 251);
+}
